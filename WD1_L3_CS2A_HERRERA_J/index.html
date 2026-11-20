@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <!-- Setting the author -->
+        <meta name="author" content="JR Herrera"> 
+        <!-- refresh rate every 30 sec -->
+        <meta http-equiv="refresh" content="30">  
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <!--EXTERNAL CSS-->
+        <link rel="stylesheet" href="css/styles.css"/>
+
+        <!--INTERNAL CSS-->
+        <style>
+            .internal-css {
+                background: white;
+                border-left: 10px solid yellow;
+                padding: 12px 16px;
+                margin: 20px;
+                color: black;
+            }
+        </style>
+        
+    </head>
+    <body>
+
+        <header class="top-header">
+            <!--Create Area for Logo-->
+            <div class="brand">
+                <span class="brand-mark">KKB</span>
+                <h1>KAKAIBA SHOP</h1>
+
+            </div>
+            <!--NAVIGATION BAR-->
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li><a href="home">Home</a></li>
+                    <li class="dropdown">
+                        <a href="collections">Collections</a> 
+                        <ul class="dropdown-menu">
+
+                            <li><a href="running">Running</a></li>
+                            <li><a href="casual">Casual</a></li>
+                            <li><a href="basketball">Basketball</a></li>
+
+                        </ul> 
+                    </li>
+                    <li><a href="#feature">Features</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                </ul>
+            </nav>    
+        </header>
+
+        <main id="home" class="container">
+                <!-- HERO SECTION -->
+                <section class="hero">
+                    <div class="hero-text"> <!--Text-->
+                        <p class="eyebrow">Premium Footwear Presentation</p>
+                        <h2>Step Forward in Style and Comfort</h2>
+                        <p>
+                            Explore out latest shoe collection featuring sleek design, 
+                            product highlights, and modern CSS styling techniques.
+                        </p>
+
+                        <!--Button to collections section -->
+                        <a class="btn" href="#gallery">View Collections</a>
+                        <p class="hero-note"> <!-- &lt and &gt is "<>"-->
+                            This site uses <strong>Internal CSS</strong> from the &nbsp; &lt;style&gt; block.
+                        </p>
+                    </div>
+
+                    <div class="hero-img">  <!--Image-->
+                        <img
+                            src="media/main.webp"
+                            alt="New Modern Shoe Style" 
+                            class="shoe-img"/>
+                    </div>
+                </section>
+        
+                <!--This uses CSS INTERNAL DEMO-->
+
+                <section class="internal-css">
+                    <h2>Internal CSS Demonstation</h2>
+                    <p>
+                        This Box is Styles in the HTML File
+                        using internal CSS, while the rest of the page is styled using the external stylesheet;
+                    </p>
+                </section>
+
+                <section id="features" class="content-grid">
+                        <article class="card">
+                            <h3>Prodict Highlights</h3>
+                            <ul class="features-list">
+                                <li>Lightweight Upper Materials</li>
+                                <li>Breathable Mesh Design</li>
+                                <li>Cushioned Sole Support</li>
+                                <li>Available in Multiple Colors</li>
+                            </ul>
+                        </article>
+
+                        <article class="card">
+                            <h2>Size Guide</h2>
+                            <table class="size-table">
+                                <thead>
+                                    <tr>
+                                        <th>Size</th>
+                                        <th>Length (cm)</th>
+                                        <th>Fit</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>25.0</td>
+                                        <td>Snug</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>26.0</td>
+                                        <td>Regular</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td>27.0</td>
+                                        <td>Roomy</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </article>
+                    </section>
+
+                    <section id="gallery" class="gallery-section">
+                        <h2>The Image Gallery</h2>
+                        <div class="gallery">
+                            <img src="media/main.webp" />
+                            <img src="media/main.webp" />
+                            <img src="media/main.webp" />
+                        </div>
+                    </section>
+                    <section class="info-columns">
+                <div class="card" id="running">
+                    <h2>Why choose this shoe</h2>
+                    <ol>
+                        <li>Comfortable for daily wear</li>
+                        <li>Durable Sole for Long Use</li>
+                        <li>Modern Appearance for Casual Outfits</li>
+                    </ol>
+                </div>
+
+                <div class="card" id="basketball">
+                    <h2>Purchase Links</h2>
+                    <p> Visit our 
+                        <a href="##" class="text-link">
+                            Official Store
+                        </a>
+                        or Check our
+                        <a href="#" class="text-link">
+                            New Arrivals
+                        </a>
+                    </p>
+
+                    <p>
+                        <i class="shoe-icon">🌟</i>
+                        Designed for Style and Performance
+                    </p>
+                </div>
+            </section>
+
+            <section id="collections" class="card">
+                <h2>Inline CSS Example</h2>
+                <p>
+                    <span style="color: red; font-weight: bolder;">
+                        This sentence uses inline CSS
+                    </span>
+                    to demonstrate styling inside the HTML Body.
+                </p>
+            </section>
+
+            <section class="flower-grid">
+                <h2>Flowers</h2>
+                <div class="flower">
+                <img src="media/flower1.jpg">
+                <p>hahahaha</p>
+                <img src="media/flower2.jpg">
+                <img src="media/flower3.jpg">
+                <img src="media/flower4.jpg">
+                <img src="media/flower5.jpg">
+                <img src="media/flower6.webp">
+                <img src="media/flower7.jpg">
+                <img src="media/flower8.webp">
+                </div>
+            </section>
+        </main>
+        
+
+        <footer class="footer"> <!-- &copt to put c-->
+            <p> &copy COPYRIGHT 2026 Sapatos</p>
+        </footer>
+    </body>
+</html>

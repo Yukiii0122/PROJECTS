@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: beige;
+    font-family: Arial, sans-serif;
+}
+
+#registration {
+    width: 320px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px #0003;
+}
+
+/*HEADING*/
+#registration h1 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+/*LABELS*/
+#registration label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+/*INPUTS*/
+#registration input {
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 7px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/*BUTTONS*/
+#registration button {
+    width: 100%;
+    padding: 9px;
+    background: #1e40af;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#registration button:hover {
+    background: #1d4ed8;
+}
+
+/*MESSAGE*/
+#regMessage {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*Log In*/
+#loginSection {
+    width: 320px;
+    padding: 25px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px #0003;
+}
+
+/*HEADING*/
+#loginSection h2 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+/*LABELS*/
+#loginSection label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+/*INPUTS*/
+#loginSection input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/*LOGIN BUTTON*/
+#loginSection button {
+    width: 100%;
+    padding: 9px;
+    background: #1e40af;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#loginSection button:hover {
+    background: #1d4ed8;
+}
+
+/*MESSAGE*/
+#loginMessage {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/*LIST*/
+#grocerySection {
+    width: 380px;
+    padding: 25px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px #0003;
+}
+
+/*LIST HEADINGS*/
+#grocerySection h2,
+#grocerySection h3 {
+    text-align: center;
+    color: #172554;
+    margin-bottom: 15px;
+}
+
+/*LIST LABELS*/
+#grocerySection label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+/*LIST INPUTS*/
+#grocerySection input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/*LIST BUTTONS*/
+#grocerySection button {
+    padding: 9px;
+    margin-bottom: 8px;
+    background: #1e40af;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*LIST BUTTON HOVER*/
+#grocerySection button:hover {
+    background: #1d4ed8;
+}
+
+/*GROCERY LIST */
+#groceryList {
+    margin-top: 10px;
+    padding-left: 25px;
+}
+
+#groceryList li {
+    padding: 8px;
+    margin-bottom: 5px;
+
+    background: #f1f5f9;
+    border-radius: 5px;
+}
+
+/*LOGOUT BUTTON*/
+#grocerySection button:last-of-type {
+    background: #64748b;
+}
+
+#grocerySection button:last-of-type:hover {
+    background: #475569;
+}
+
+
